@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Display - Socket Experiment</title>
+    <style>
+        #color-code {
+            display: inline-block;
+            font-size: 7em;
+            margin: 1em auto;
+        }
+        #color-display {
+            background: red;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+    <style id="bgcolor"></style>
+    <script src="assets/socket.io.js"></script>
+    <script src="scripts/display.js"></script>
+</head>
+<body id="color-display">
+    <output id="color-code">#ffffff</output>
+</body>
+</html>
