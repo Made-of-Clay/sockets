@@ -31,7 +31,7 @@ app.get('/assets/socket.io.js', (req, res) => {
     }
 });
 
-http.listen(3000, () => console.log('listening on 10.0.0.236:3000') );
+http.listen(3030, () => console.log('listening on 10.0.0.236:3000') );
 
 io.on('connection', (socket) => {
     simpleConnect();
